@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    display: grid;
+    grid-template-areas: "header header"
+                         "sessao-primaria sessao-primaria"
+                         "sessao-secundaria sessao-secundaria"
+                         "footer footer";
+    grid-template-columns: auto auto;
+    height: 100vh;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.header{
+    grid-area: header; 
+    display: flex;
+    padding: 4rem;
+}
+.header .logo .link-img-logo img {
+    width: 250px;
+    margin: 2rem 4rem;
+}
+
+.main{
+    display: flex;
+}
+
+.sessao-primaria{
+    grid-area: sessao-primaria;
+}
+.sessao-primaria img{
+    width: 950px;
+}
+
+.sessao-primaria .ilustration{
+    margin-left: 6rem;
+}
+.sessao-secundaria{
+    grid-area: sessao-secundaria;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sessao-secundaria .descritivo-main .title{
+    margin:3rem 0;
+    font-family: 'Popins', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #fff;
+    width: 600px;
+}
+
+.sessao-secundaria .descritivo-main .subtitle{
+    margin: 1.2rem 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.sessao-secundaria .descritivo-main .btn{
+    margin-top: 2rem;
+    background-color: #fff;
+    color:  hsl(257, 40%, 49%);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 3rem;
+    height: 6rem;
+    width: 23rem;
+    font-size: 2rem;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 1px 2px 9px rgb(71, 70, 70);
+}
+
+.sessao-secundaria .descritivo-main .btn:hover{
+
+    color:  hsl(257, 40%, 49%);
+    box-shadow: 7px 7px 20px rgb(220, 221, 166);
+}
+
+
+
+.footer{
+    grid-area: footer;
+    width: 100%;
+}
+
+.footer .links-font-awesome {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6rem;
+}
+
+.footer .links-font-awesome a{
+    margin: 10px;
+    font-size: 3rem;
+}

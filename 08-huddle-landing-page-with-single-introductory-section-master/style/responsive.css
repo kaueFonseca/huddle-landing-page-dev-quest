@@ -1,0 +1,191 @@
+@media(max-width: 459px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-size: 459px;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-areas: "header"
+                             "sessao-primaria"
+                             "sessao-secundaria"
+                             "footer";
+        grid-template-columns: 100% ;
+        height: 100%;
+        width: 100%;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .header {
+        margin-bottom: 3rem ;
+    }
+    .header .logo .link-img-logo img {
+        width: 150px;
+        margin: 0;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sessao-primaria img{
+        width: 398px;
+    }
+    .sessao-primaria .ilustration{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 0 0;
+    }
+    .sessao-secundaria{
+        max-width: 100%;
+    }
+    .sessao-secundaria{
+        grid-area: sessao-secundaria;
+        margin: 0rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sessao-secundaria .descritivo-main .title{
+        display: flex;
+        justify-content: center;
+       font-size: 3.4rem;
+       max-width: 400px;
+       margin: 2rem 1rem 2rem;
+       padding: 0rem;
+    }
+    .sessao-secundaria .descritivo-main .subtitle{
+        
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+    .sessao-secundaria .descritivo-main .btn{
+        margin: 2rem 0rem 2rem 0rem;
+        background-color: #fff;
+        color:  hsl(257, 40%, 49%);
+        padding: 1rem 3rem;
+        border: none;
+        border-radius: 3rem;
+        height: 5.5rem;
+        width: 25rem;
+        font-size: 2rem;
+        font-family: 'Popins', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.2s;
+        box-shadow: 1px 2px 9px rgb(71, 70, 70);
+    }
+    
+    .footer .links-font-awesome {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .footer .links-font-awesome a{
+        margin: 16px;
+        font-size: 3rem;
+    }
+
+    
+}
+
+@media(max-width: 375px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-size: 375px;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-areas: "header"
+                             "sessao-primaria"
+                             "sessao-secundaria"
+                             "footer";
+        grid-template-columns: 100% ;
+        height: 100%;
+        width: 100%;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .header {
+        margin-bottom: 3rem ;
+    }
+    .header .logo .link-img-logo img {
+        width: 150px;
+        margin: 0;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sessao-primaria img{
+        width: 300px;
+    }
+    .sessao-primaria .ilustration{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 0 0;
+    }
+    .sessao-secundaria{
+        max-width: 100%;
+    }
+    .sessao-secundaria{
+        grid-area: sessao-secundaria;
+        margin: 0rem;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sessao-secundaria .descritivo-main .title{
+        display: flex;
+        justify-content: center;
+        font-size: 28px;
+        max-width: 320px;
+        margin: 2rem 1rem 2rem;
+        padding: 1rem 0 1rem 3rem;
+    }
+    .sessao-secundaria .descritivo-main .subtitle{
+        font-size: 20px;
+        color: #fff;
+        margin: 2rem 2rem;
+    }
+    .sessao-secundaria .descritivo-main .btn{
+        margin: 2rem 0rem 2rem 0rem;
+        background-color: #fff;
+        color:  hsl(257, 40%, 49%);
+        padding: 1rem 3rem;
+        border: none;
+        border-radius: 3rem;
+        height: 5.5rem;
+        width: 25rem;
+        font-size: 2rem;
+        font-family: 'Popins', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.2s;
+        box-shadow: 1px 2px 9px rgb(71, 70, 70);
+    }
+    
+    .footer .links-font-awesome {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .footer .links-font-awesome a{
+        margin: 16px;
+        font-size: 3rem;
+    }
+
+    
+}
+
